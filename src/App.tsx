@@ -4,12 +4,13 @@ import WorkExperience from "./components/work-section";
 
 function App() {
   return (
-    <div className="w-screen">
+    <div>
       <Navbar />
-      <hr className="border-gray-300 mx-4" />
+      <hr className="border-gray-300" />
       <Hero />
-      <hr className="my-10 border-gray-300 mx-4" />
+      <hr className="my-10 border-gray-300" />
       <WorkExperience />
+      <hr className="my-10 border-gray-300" />
     </div>
   );
 }

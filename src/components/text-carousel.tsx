@@ -1,7 +1,13 @@
 import { useEffect, useState } from "react";
 
 function TextCarousel() {
-  const phrases = ["software engineer", "QA engineer", "singer", "gamer"];
+  const phrases = [
+    "software engineer",
+    "QA engineer",
+    "singer",
+    "gamer",
+    "runner",
+  ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
